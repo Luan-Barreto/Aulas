@@ -1,0 +1,39 @@
+Árvore Binária para Lista1:
+
+       45
+      /   \
+    20     60
+   / \       \
+  7   30      81
+ /   / \       \
+4   8  100      97
+
+Adicionando o valor 50 e removendo o valor 20:
+
+       45
+      /   \
+    30     60
+   / \       \
+  7   50      81
+ /   / \       \
+4   8  100      97
+
+Árvore Binária para Lista2:
+
+       15
+      /  \
+    6    18
+   / \     \
+  3   7     20
+        \
+         16
+
+Adicionando o valor 10 e removendo o valor 6:
+
+       15
+      /  \
+    7    18
+   / \     \
+  3   10    20
+        \
+         16
