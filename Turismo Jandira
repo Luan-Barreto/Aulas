@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto Turístico em Jandira</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ponto Turístico em Jandira</h1>
+    </header>
+
+    <section>
+        <img src="jandira.jpg" alt="Ponto Turístico em Jandira">
+        <h2>Jandira Park</h2>
+        <p>Explore a beleza natural do Jandira Park, um local tranquilo com trilhas, lagos e espaços para piquenique.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ponto Turístico em Jandira. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
