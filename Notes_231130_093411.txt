@@ -1,0 +1,9 @@
+Redes Sociais:
+
+Grafos são amplamente utilizados para modelar e analisar redes sociais. Cada pessoa em uma rede social pode ser representada como um nó, e as conexões entre as pessoas (amizades, seguidores etc.) são representadas por arestas. Isso permite análises complexas, como identificar influenciadores, comunidades e até prever conexões futuras com base em padrões de comportamento.
+
+Roteamento de Redes de Computadores:
+
+Em redes de computadores, especialmente na Internet, os grafos são usados para modelar a infraestrutura de roteamento. Os roteadores e servidores são representados como nós, enquanto as conexões entre eles formam as arestas. Algoritmos de grafos são implementados para otimizar o roteamento de dados, garantindo que a informação seja entregue de forma eficiente e rápida, contornando possíveis falhas na rede.
+
+Esses são apenas dois exemplos de como os grafos são fundamentais no contexto tecnológico, proporcionando modelos poderosos para análise e otimização de sistemas complexos.
