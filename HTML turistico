@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos da Europa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #004080;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos da Europa</h1>
+    </header>
+
+    <section class="card">
+        <img src="paris.jpg" alt="Torre Eiffel em Paris">
+        <h2>Paris, França</h2>
+        <p>Descubra a beleza da Cidade Luz, com a icônica Torre Eiffel, o Louvre e encantadoras ruas de paralelepípedos.</p>
+    </section>
+
+    <section class="card">
+        <img src="santorini.jpg" alt="Pôr do sol em Santorini">
+        <h2>Santorini, Grécia</h2>
+        <p>Explore as deslumbrantes vistas do Mar Egeu, as casas brancas com telhados azuis e os magníficos pôr do sol.</p>
+    </section>
+
+    <section class="card">
+        <img src="roma.jpg" alt="Coliseu em Roma">
+        <h2>Roma, Itália</h2>
+        <p>Mergulhe na história visitando o Coliseu, o Fórum Romano e a Fontana di Trevi nesta cidade cheia de cultura e arquitetura.</p>
+    </section>
+
+    <section class="
