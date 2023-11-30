@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    // Crie um ponteiro que indique uma variável do tipo inteiro
+    int *ponteiro;
+
+    // Defina que esse ponteiro é igual à alocação de memória para guardar oito dados do tipo inteiro
+    ponteiro = (int *)malloc(8 * sizeof(int));
+
+    if (ponteiro == NULL) {
+        printf("Falha na alocação de memória.\n");
+        return 1;
+    }
+
+    printf("Alocação de memória para oito inteiros realizada.\n");
+
+    // Efetue a realocação de memória para um tamanho que guarde doze dados inteiros
+    int *novo_ponteiro = (int *)realloc(ponteiro, 12 * sizeof(int));
+
+    if (novo_ponteiro == NULL) {
+        printf("Falha na realocação de memória.\n");
+        free(ponteiro);  // Libere o espaço alocado anteriormente antes de encerrar o programa
+        return 1;
+    }
+
+    ponteiro = novo_ponteiro;
+
+    printf("Realocação de memória para doze inteiros realizada.\n");
+
+    // Libere o espaço alocado nas funções anteriores
+    free(ponteiro);
+
+    printf("Memória liberada.\n");
+
+    return 0;
+}
