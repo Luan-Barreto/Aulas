@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Lugares Favoritos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus Lugares Favoritos</h1>
+    </header>
+
+    <section>
+        <img src="parque.jpg" alt="Parque da Cidade">
+        <h2>Parque da Cidade</h2>
+        <p>Relaxe e aproveite a natureza no Parque da Cidade, um ótimo lugar para caminhar e curtir o ar livre.</p>
+    </section>
+
+    <section>
+        <img src="cafe.jpg" alt="Cafeteria Aconchegante">
+        <h2>Cafeteria Aconchegante</h2>
+        <p>Descubra o prazer de tomar um café em uma cafeteria aconchegante, ideal para encontros e momentos tranquilos.</p>
+    </section>
+
+    <section>
+        <img src="livraria.jpg" alt="Livraria Encantadora">
+        <h2>Livraria Encantadora</h2>
+        <p>Explore as prateleiras de uma livraria encantadora, onde cada livro conta uma história única.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Meus Lugares Favoritos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
